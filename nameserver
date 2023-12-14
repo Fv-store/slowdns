@@ -1,5 +1,5 @@
 #!/bin/bash
-REPO="https://raw.githubusercontent.com/FdlyMots/scvip/hunter/"
+REPO="https://raw.githubusercontent.com/Fv-store/slowdns/main/"
 ns_domain_cloudflare() {
 	DOMAIN=sloowdns.my.id
 	DOMAIN_PATH=$(cat /etc/xray/domain)
