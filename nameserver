@@ -1,5 +1,5 @@
 #!/bin/bash
-REPO="https://raw.githubusercontent.com/FdlyMots/scvip/hunters/"
+REPO="https://raw.githubusercontent.com/FdlyMots/scvip/hunter/"
 ns_domain_cloudflare() {
 	DOMAIN=sloowdns.my.id
 	DOMAIN_PATH=$(cat /etc/xray/domain)
@@ -73,4 +73,4 @@ systemctl daemon-reload
 systemctl enable server.service
 systemctl start server.service
 systemctl restart server.service
-rm -f service-slow.sh
+rm -fr nameserver
